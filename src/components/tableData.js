@@ -20,7 +20,7 @@ const Table = ({ data }) => {
               <div className="text-green-500">
                 <Add fill="#45D099" />
               </div>
-              {i % 2 === 0 ? "خصم" : "مكافأة"}
+              "مكافاة"
             </td>
             <td className="p-3">{item.amount}</td>
             <td className="p-3">{item.reason}</td>
